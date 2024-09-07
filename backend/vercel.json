@@ -1,0 +1,29 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/node",
+        "config": {
+          "includeFiles": [
+            "dist/**",
+            "node_modules/**"
+          ]
+        }
+      }
+    ],
+    "routes": [
+      {
+        "src": "/api/(.*)",
+        "dest": "/api/index.js"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/public/$1"
+      }
+    ],
+    "env": {
+      "NODE_ENV": "production"
+    }
+  }
+  
