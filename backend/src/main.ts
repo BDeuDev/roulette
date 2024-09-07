@@ -6,7 +6,7 @@ async function bootstrap() {
 
 
   app.enableCors({
-    origin: ['https://roulette-frontend-topaz.vercel.app/'], // Allow your frontend domain
+    origin: ['https://roulette-frontend-topaz.vercel.app/'],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
   });
