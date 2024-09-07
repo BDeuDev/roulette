@@ -51,9 +51,9 @@ Este proyecto utiliza Docker y Docker Compose para ejecutar dos servicios princi
 
 En el directorio raíz de tu proyecto, ejecuta el siguiente comando para construir las imágenes y levantar los contenedores:
 
-    ```bash
-    docker-compose up --build
-    ```
+```bash
+docker-compose up --build
+```
 Si prefieres ejecutar los contenedores en segundo plano, puedes usar el flag -d:
 ```bash
     docker-compose up --build -d
