@@ -73,6 +73,7 @@ const RouletteComponent = () => {
       }
 
       setWinner(winningNumber);
+      console.log(winner)
     } catch (err) {
       setError('Error al obtener el número ganador.');
     } finally {
