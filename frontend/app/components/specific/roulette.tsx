@@ -87,7 +87,7 @@ const RouletteComponent = () => {
 
       <div className="wheel-container" ref={containerRef} style={{ width: '400px', height: '400px' }}></div>
 
-      {error && <p>{error}</p>}
+      {error && <p className='text-red-400 text-center w-full'>{error}</p>}
 	  <div className='w-full flex flex-col items-center justify-center text-white pt-5'>
 	  
       <button onClick={handleSpin} className='bg-blue-600 p-5 rounded-md' >
