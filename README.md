@@ -55,6 +55,6 @@ En el directorio raíz de tu proyecto, ejecuta el siguiente comando para constru
     docker-compose up --build
     ```
 Si prefieres ejecutar los contenedores en segundo plano, puedes usar el flag -d:
-    ```bash
+```bash
     docker-compose up --build -d
-    ```
+```
